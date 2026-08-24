@@ -15,6 +15,10 @@ Alpha status implies:
 
 This is an implementation that started out with a need to represent information from DC3DD in CASE format.
 
+### CASE pin
+
+This repository is a historical CASE v0.1.0 prototype. It does not emit valid CASE 1.x. Live CASE is 1.5.0. The committed sample at `wrapper-prototype/proto/test_dc3dd.json` still uses `@context` `http://case.example.org/core#`.
+
 ### Description
 
 During discussions with the current maintainer it was established that the tool is meant to be easy, fast, and lightweght.
