@@ -15,9 +15,12 @@ Alpha status implies:
 
 This is an implementation that started out with a need to represent information from DC3DD in CASE format.
 
-### CASE pin
+### Ontology version
 
-This repository is a historical CASE v0.1.0 prototype. It does not emit valid CASE 1.x. Live CASE is 1.5.0. The committed sample at `wrapper-prototype/proto/test_dc3dd.json` still uses `@context` `http://case.example.org/core#`.
+This wrapper targets the historical CASE v0.1.0 prototype. Its converter and
+[bundled example](wrapper-prototype/proto/test_dc3dd.json) use the namespace
+`http://case.example.org/core#`. Review the mapping before using the output
+with a later CASE release.
 
 ### Description
 
